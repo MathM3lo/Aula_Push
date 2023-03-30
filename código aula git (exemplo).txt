@@ -6,4 +6,6 @@ y = c(2, 4, 6, 8)
 df= data.framme(x, y)
 
 ggplot()
- geom_point(aes(x,y))
+ geom_point(axes(x, y), size - 3, color - "blue")+
+
+theme_bw()
