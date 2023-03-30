@@ -12,3 +12,5 @@ ggplot()
   axis.tittle = elemet_text(size = 20)
   axis.text = element_text(size = 50, color = "red")
   )
+
+  Orange
