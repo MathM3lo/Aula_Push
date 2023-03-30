@@ -6,6 +6,8 @@ y = c(2, 4, 6, 8)
 df= data.framme(x, y)
 
 ggplot()
- geom_point(axes(x, y), size - 3, color - "blue")+
-
-theme_bw()
+ geom_point(axes(x, y), size - 10, color - "blue")+
+ theme_bw()
+ theme(
+  axis.tittle = elemet_text(size = 20)
+  )
